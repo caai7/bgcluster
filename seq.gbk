@@ -1,0 +1,752 @@
+LOCUS       XP_001598637            1062 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00726 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598637
+VERSION     XP_001598637.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598587.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 1062)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1062)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 1062)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91323.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1062
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..1062
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=116835
+     Region          43..>349
+                     /region_name="AMP-binding"
+                     /note="AMP-binding enzyme; pfam00501"
+                     /db_xref="CDD:459834"
+     Region          186..514
+                     /region_name="Adenylate forming domain, Class I
+                     superfamily"
+                     /note="This family includes acyl- and aryl-CoA ligases, as
+                     well as the adenylation domain of nonribosomal peptide
+                     synthetases and firefly luciferases. The adenylate-forming
+                     enzymes catalyze an ATP-dependent two-step reaction to
+                     first activate a carboxylate...; cl17068"
+                     /db_xref="CDD:473059"
+     Site            order(190,193..198,200..201)
+                     /site_type="other"
+                     /note="acyl-activating enzyme (AAE) consensus motif"
+                     /db_xref="CDD:341228"
+     Site            order(193,302..303,323..328,411,414,426,513)
+                     /site_type="other"
+                     /note="AMP binding site [chemical binding]"
+                     /db_xref="CDD:341228"
+     Site            order(193,226..227,276,278..279,282,302..303,323..328,411,
+                     414,423..426)
+                     /site_type="active"
+                     /db_xref="CDD:341228"
+     Site            order(226,278..279,282,302,423..425,494)
+                     /site_type="other"
+                     /note="CoA binding site [chemical binding]"
+                     /db_xref="CDD:341228"
+     Region          <560..618
+                     /region_name="PKS_PP"
+                     /note="Phosphopantetheine attachment site; smart00823"
+                     /db_xref="CDD:214834"
+     Region          650..970
+                     /region_name="Thioester-redct"
+                     /note="thioester reductase domain; TIGR01746"
+                     /db_xref="CDD:273787"
+     CDS             1..1062
+                     /locus_tag="SS1G_00726"
+                     /coded_by="XM_001598587.1:1..3189"
+                     /db_xref="GeneID:5494946"
+ORIGIN      
+        1 mahltpehil hlydtfgelr vlddiirhrs kdnppapilg yprvednpsd yetftgqqld
+       61 sfvdaackyf iknglkpggn rviglyspsn vdfavtffal srlgytvlcl slriapiaii
+      121 nllkqtncev iirgdtsqia atcdavaqea tlrsivipmr aqygiprpan ekpftrefdr
+      181 evetnevaiv mhssgstglp kpvflthknv lthpvqgagm hnfgalplyh myglsttlqa
+      241 mymakkanlp satlpmtadn lmlaieatqp evfhavpyal glltehprgm pylkqakivt
+      301 aagartpdel gdllasekvn igvvfgttea gllgdtmrra egddswnyvr iysnirssiy
+      361 mdpigdnqfe cvylkshpgl svsnsddpap gswrskdvfe phptipdtwk yvtrlddrvt
+      421 lsngekvlpl piegrlrqee iireaavfgv draipgvlif rasdelpdde yleaiwpaiv
+      481 dansraegfs qitkemvglv psdveyprtd kgsiiraqiy rkfaekidel ydsldgdaeg
+      541 tlkldlagie tfltetyedi tghplesvdt dffnadidsl raiqmrriiq ktldlngqql
+      601 ssnvvyehgt vralaqylfs lssgeseqdk dnvplmesli qkystfgevv iltgatgslg
+      661 ahalyqmvns pnfrkvyclv rgenpmdrvm ksikdrglsl tpaakskvva ftadlaltdl
+      721 glgkamieqf ktevsliihl awsvnfiigl qsfephlagl knlldlslav yrseparlfy
+      781 assistaent papalipdap iedfhnalnm gyaqsklvge ymvlnaargg arayalrigq
+      841 ivgdrdngfw neaefvpsmi rsalsmkalp ifhencswip vdtlataile ideklkalpr
+      901 pcaidstnpp ivynmvnpat ftweallgel stagldfeai pfgnwlqklr esaangqeeq
+      961 npavklldhf eqrylqsnng hgysgaeasa sssgtssprs svsgtstpts kgtsisdyei
+     1021 vgvtfdtkai lrdskvlqsp pdiiqdgyvk qflsqwlkkw vk
+//
+
+LOCUS       XP_001598638             345 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00727 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598638
+VERSION     XP_001598638.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598588.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 345)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 345)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 345)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91324.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..345
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..345
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=38605
+     Region          7..327
+                     /region_name="AKR_SF"
+                     /note="Aldo-keto reductase (AKR) superfamily; cl00470"
+                     /db_xref="CDD:444925"
+     Site            order(25..27,58,63,88,130,160..161,180,211..217,269,
+                     286..289,294,297..298)
+                     /site_type="active"
+                     /db_xref="CDD:381370"
+     Site            order(58,63,88,130)
+                     /site_type="active"
+                     /note="catalytic tetrad [active]"
+                     /db_xref="CDD:381370"
+     CDS             1..345
+                     /locus_tag="SS1G_00727"
+                     /coded_by="XM_001598588.1:1..1038"
+                     /db_xref="GeneID:5494947"
+ORIGIN      
+        1 mpsstklptr algrngpqip alglglmgls tfygkpgsde erfefldrah elgcthwdsa
+       61 qmygdnevll gkwftrtgkr kdiflttkfg nhvtpeggre irndaeyirq svaesfeklq
+      121 tdyidllych rftgtipvet ivtvmkefvd agkvrylgls ecgvdtlera vkihpihayq
+      181 ieyspfsmdv ekpevglldc ckrlgialva ysplgrgilt gqyrsvddfd kddfrrtipr
+      241 fatqenfdkn lklvdtitai gktknaspgq vtlawmikqd plifpipgtk kikyleenig
+      301 alyidltdee dqeirhaies aevvgtrvae hlmgvlvvdt ppltn
+//
+
+LOCUS       XP_001598639             174 aa            linear   PLN 08-AUG-2017
+DEFINITION  predicted protein [Sclerotinia sclerotiorum 1980 UF-70].
+ACCESSION   XP_001598639
+VERSION     XP_001598639.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598589.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 174)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 174)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 174)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91325.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..174
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..174
+                     /product="predicted protein"
+                     /calculated_mol_wt=19546
+     CDS             1..174
+                     /locus_tag="SS1G_00728"
+                     /coded_by="XM_001598589.1:1..525"
+                     /db_xref="GeneID:5494948"
+ORIGIN      
+        1 mfwrcrdrml kmllmmkksi yidnndilyi rislsvdivf geyssqtsvs iprsrnigls
+       61 sdgirgewkt gaeltgyfrp tlsqrysmrs eiavgsggei gaignpgack nllksttksy
+      121 srssiavsdi atfslgvssn tiksskfrcs yrnvrfflqk fqvitkraek rnyi
+//
+
+LOCUS       XP_001598640            1111 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00729 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598640
+VERSION     XP_001598640.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598590.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 1111)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1111)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 1111)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91326.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1111
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..1111
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=122020
+     Region          186..499
+                     /region_name="Adenylate forming domain, Class I
+                     superfamily"
+                     /note="This family includes acyl- and aryl-CoA ligases, as
+                     well as the adenylation domain of nonribosomal peptide
+                     synthetases and firefly luciferases. The adenylate-forming
+                     enzymes catalyze an ATP-dependent two-step reaction to
+                     first activate a carboxylate...; cl17068"
+                     /db_xref="CDD:473059"
+     Site            order(190,193..198,200..201)
+                     /site_type="other"
+                     /note="acyl-activating enzyme (AAE) consensus motif"
+                     /db_xref="CDD:341228"
+     Site            order(193,242..243,293,295..296,299,319..320,339..344,412,
+                     428,431,440..443)
+                     /site_type="active"
+                     /db_xref="CDD:341228"
+     Site            order(193,319..320,339..344,412,428,431,443)
+                     /site_type="other"
+                     /note="AMP binding site [chemical binding]"
+                     /db_xref="CDD:341228"
+     Site            order(242,295..296,299,319,440..442,494)
+                     /site_type="other"
+                     /note="CoA binding site [chemical binding]"
+                     /db_xref="CDD:341228"
+     Region          573..653
+                     /region_name="AcpP"
+                     /note="Acyl carrier protein [Lipid transport and
+                     metabolism]; COG0236"
+                     /db_xref="CDD:440006"
+     Region          723..989
+                     /region_name="Lys2b"
+                     /note="Thioester reductase domain of alpha aminoadipate
+                     reductase Lys2 and NRPSs [Secondary metabolites
+                     biosynthesis, transport and catabolism]; COG3320"
+                     /db_xref="CDD:442549"
+     CDS             1..1111
+                     /locus_tag="SS1G_00729"
+                     /coded_by="XM_001598590.1:1..3336"
+                     /db_xref="GeneID:5494949"
+ORIGIN      
+        1 msqagtlrsd vaaafdaana nparlvhlip delartvpdh sifaypktdm pqdgfvevsa
+       61 ksfanainrt awylesilgk apagefpava yqghsdiryf lfmfgaikag ykmlylsprn
+      121 svagslnvle ksnchiflta rnthvenils qrnmrtatvp eleelledee vraypysksf
+      181 aeartdpclv lhttgstglp kpitwkneil styeawrtip aidgyvptte vyqqsrrayn
+      241 lmplfhtsgl nigitmslll gvttvygsan vvphaayadd ihkyggvdas igppsiyeel
+      301 shdpksleri hnfnyilvcg aaisqtagdi iskhcrvvsn fgatetaclp rlapavedwa
+      361 yfywhpthsg ivfreymdgl helfierkpe ldlyyqgifs tfpqleeysm ndlysrhpdp
+      421 akpflykwrg raddvivlsn geklapalme asicssplvk gamvvgrgkf qpaalvdlkd
+      481 appnsaaerh alikemlpai dqankhapah gqldqyhilf vdpsrpmhyl gqgkiqrhqt
+      541 yrlyekdied vytaaenldd qegevgdlrv dfadrtniak wlkdlievta giqnlgpdaa
+      601 ffesgldslh vikivrelki hakisggnnl tadsisptvv ysnpslvels eflyktadla
+      661 pedpdsayqs adpnekevkn pkltameslf qefvstlpve tkprvtpitn gttvlltgtt
+      721 gslgsyllne mnndlnvkhi yaldrsagga ekyqqaitar glspidskrv tflkadlsds
+      781 qlgvgqenya kiletvthvl hcqwpvnfnw tlnsfkpyit gvrnlaqmas sstnnafvmf
+      841 issiaavggy kgvggvpeap ildftaaapm gygqskliae allekaaqis gvrtavcrvg
+      901 ivagpveqqk gmwnkheyip siivssahlg vvpetfpsrd hidwlpvdkl skvlceildt
+      961 asqpeldeat gaissaplhs ktyhvvnpqf ssweedlgqn llaaypkgmv kpvkfeqwvd
+     1021 alkasvdeae rtgnvdvdan pamrllefys kaaaggavek gartlptivs qsasktlrtl
+     1081 gplnrvwlen wmvqwgikep aavqnaflal n
+//
+
+LOCUS       XP_001598641             628 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00730 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598641
+VERSION     XP_001598641.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598591.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 628)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 628)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 628)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91327.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..628
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..628
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=66321
+     Region          47..626
+                     /region_name="BetA"
+                     /note="Choline dehydrogenase or related flavoprotein
+                     [Lipid transport and metabolism, General function
+                     prediction only]; COG2303"
+                     /db_xref="CDD:441878"
+     CDS             1..628
+                     /locus_tag="SS1G_00730"
+                     /coded_by="XM_001598591.1:1..1887"
+                     /db_xref="GeneID:5494950"
+ORIGIN      
+        1 mftkdftvag laalslvaqs qagptlgtsh lkarallgts fgvpgrnaty dyvvvgggna
+       61 gltiamrlae snsgtvavve agtfyeisng nisqvpatdg vfagkgasdw qpqidwgyqt
+      121 taqsgaynts lhyargktlg gcsarnfmvy qrgtagsmqk wadqvgdday ewdnflpyfq
+      181 ksvnftapdm slrsanstpq fvaaeaanap atgplsvtws hyaqafgtwa ieglaqigip
+      241 vipgflggsl igssyptftl daermtress etsflragmk spdlkvytls makkilfddt
+      301 ktatgvlvet ggypftltan kevilsagvf gspqilmasg vgpaaelsai gvdviadrpg
+      361 vgkgmqdhif tgiayrvnap tisklgndpa faaeqaalye ntpasgmyss pntdvlgwek
+      421 ipekyrsews netqtalaay psdwpeveyi aissflgnqv vlgsdpsdgy nyatlsvalv
+      481 aprsrgslti tspdtnvapi idpgflteqs dvdimvaaik rirefyatda lqsfvigdey
+      541 fpgsnvstda qiesfvrtsf ntiwhatstc smgpvndtnt vvdtqarvlg vsglrvvdaa
+      601 afpllppghp mstvyafaek iacdiigc
+//
+
+LOCUS       XP_001598642             100 aa            linear   PLN 08-AUG-2017
+DEFINITION  predicted protein [Sclerotinia sclerotiorum 1980 UF-70].
+ACCESSION   XP_001598642
+VERSION     XP_001598642.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598592.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 100)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 100)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 100)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91328.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..100
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..100
+                     /product="predicted protein"
+                     /calculated_mol_wt=10731
+     CDS             1..100
+                     /locus_tag="SS1G_00731"
+                     /coded_by="XM_001598592.1:1..303"
+                     /db_xref="GeneID:5494951"
+ORIGIN      
+        1 mprkkclggf gnctkdypsl srssldksvp gatdlggdsv lgfgeeptsp vkgtlkplst
+       61 chnaslnyes srfrktpnnd tsyrkslsli qsqytrvlnt
+//
+
+LOCUS       XP_001598643             782 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00732 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598643
+VERSION     XP_001598643.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598593.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 782)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 782)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 782)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91329.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..782
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..782
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=87496
+     Region          34..67
+                     /region_name="GAL4"
+                     /note="GAL4-like Zn2Cys6 binuclear cluster DNA-binding
+                     domain; found in transcription regulators like GAL4.
+                     Domain consists of two helices organized around a
+                     Zn(2)Cys(6)motif; Binds to sequences containing 2 DNA half
+                     sites comprised of 3-5 C/G combinations; cd00067"
+                     /db_xref="CDD:238023"
+     Site            order(38,41,48,54,57,64)
+                     /site_type="other"
+                     /note="Zn2+ binding site [ion binding]"
+                     /db_xref="CDD:238023"
+     Region          239..686
+                     /region_name="fungal_TF_MHR"
+                     /note="fungal transcription factor regulatory middle
+                     homology region; cd12148"
+                     /db_xref="CDD:213391"
+     CDS             1..782
+                     /locus_tag="SS1G_00732"
+                     /coded_by="XM_001598593.1:1..2349"
+                     /db_xref="GeneID:5494952"
+ORIGIN      
+        1 mfttfvsmps ttsstsaspe ppprqrprqk rsqvakacdw crvhrikcdn dhpcnncktr
+       61 ggncsnsgam klatlphayr eierlkqkvq elekeldker ssdkqnmqml pphglpsppn
+      121 sigssrsghd iglsgmsgls gmnglefdan tikrewegih istarspqkt wygsaslyyf
+      181 igrlntflta slhqkhsaha mlpnsaskvl dgpttadtsd nknglmvpie dplnvgdyls
+      241 ptqeeyflgl fwqsyytsnp iideqefkeh yqslwinsdk erkpsalvdi ilamcmqygm
+      301 sflpnitrah npssranvnv ndatiagrwh yrrcqsllaa dleaptiatl qchilcsiyl
+      361 ccgsfqnmad sacsaavrta ymlglhvepp qemprkerel rkrmwwtlyv leskmsmklg
+      421 rpflvhecnt tctlptddrd vaiaagqsfa plgdnvtwlt wnlhntklll varsaysafy
+      481 dtpvpntvnv rgtiwddmqa lgsyaemlep hlermdewlr gvpmalktdr lnggspfstd
+      541 lshiniepfa plwlqrqrll lelmyhnlst nlcrpfiifs psgtptplse qialkcvgha
+      601 mqlthimhhv ilstsilagw qesfqwqwnc amtlvgyifa yphgtqtraa rgaldlaiav
+      661 fdnfgnnfaq aasaanvmte lsakvdirla qtyekqmmvq qskaiikpee tqsvisagds
+      721 gyesllddsf tgmqgvdslt fdnetnaelq dilaqsidmt fpadsytdfe mlwanmgtif
+      781 pe
+//
+
+LOCUS       XP_001598644             381 aa            linear   PLN 08-AUG-2017
+DEFINITION  hypothetical protein SS1G_00733 [Sclerotinia sclerotiorum 1980
+            UF-70].
+ACCESSION   XP_001598644
+VERSION     XP_001598644.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598594.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 381)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 381)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 381)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91330.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..381
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..381
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=41192
+     Region          5..327
+                     /region_name="CAD1"
+                     /note="Cinnamyl alcohol dehydrogenases (CAD); cd05283"
+                     /db_xref="CDD:176186"
+     Site            order(41..43,46,145,149,167..172,190..191,195,210,
+                     228..229,231,251..252,275..277)
+                     /site_type="other"
+                     /note="putative NAD(P) binding site [chemical binding]"
+                     /db_xref="CDD:176186"
+     Site            order(41,43,56,82,145,277)
+                     /site_type="other"
+                     /note="putative substrate binding site [chemical binding]"
+                     /db_xref="CDD:176186"
+     Site            order(41,56,145)
+                     /site_type="other"
+                     /note="catalytic Zn binding site [ion binding]"
+                     /db_xref="CDD:176186"
+     Site            order(87,90,93,101)
+                     /site_type="other"
+                     /note="structural Zn binding site [ion binding]"
+                     /db_xref="CDD:176186"
+     Site            order(100,152,245,250..252,254,263,265..266,269..276)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:176186"
+     CDS             1..381
+                     /locus_tag="SS1G_00733"
+                     /coded_by="XM_001598594.1:1..1146"
+                     /db_xref="GeneID:5494279"
+ORIGIN      
+        1 mptftvfkgr adgtpikstt trpeelkgds vlvkitasgv cgtdlhykga dmvlghegvg
+       61 iveavgpdak hlkkgdrvgw gyehdscghc hecltgnevf cperalygya nldqgsfash
+      121 aiwreaflfp tpasipdeya aplqcggatt fsalqgikst dvvavmgvgg lghlaiqfaa
+      181 kmgcrvvvls ssdkkkdeat klgahefiat kdakelkvsk linrllvtta aqpnwdlilp
+      241 imaprstifp ltvsfqnlei pympfltagv niqgnlvanr sahkqmlefa afhdikpivq
+      301 tfpmtesgia eamdkldkgq vyyravllaq iiekvlpgas rssssssttl rkrftykswl
+      361 ttiltscapr skkekkslek k
+//
+
+LOCUS       XP_001598645              38 aa            linear   PLN 08-AUG-2017
+DEFINITION  predicted protein [Sclerotinia sclerotiorum 1980 UF-70].
+ACCESSION   XP_001598645
+VERSION     XP_001598645.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598595.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 38)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 38)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 38)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91331.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..38
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..38
+                     /product="predicted protein"
+                     /calculated_mol_wt=4065
+     CDS             1..38
+                     /locus_tag="SS1G_00734"
+                     /coded_by="XM_001598595.1:1..117"
+                     /db_xref="GeneID:5494280"
+ORIGIN      
+        1 mvkyafdlsf skflsshsvr csslndsssd vesetcds
+//
+
+LOCUS       XP_001598646             143 aa            linear   PLN 08-AUG-2017
+DEFINITION  predicted protein [Sclerotinia sclerotiorum 1980 UF-70].
+ACCESSION   XP_001598646
+VERSION     XP_001598646.1
+DBLINK      BioProject: PRJNA20263
+            BioSample: SAMN02953621
+DBSOURCE    REFSEQ: accession XM_001598596.1
+KEYWORDS    RefSeq.
+SOURCE      Sclerotinia sclerotiorum 1980 UF-70
+  ORGANISM  Sclerotinia sclerotiorum 1980 UF-70
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Leotiomycetes; Helotiales; Sclerotiniaceae; Sclerotinia.
+REFERENCE   1  (residues 1 to 143)
+  AUTHORS   Birren,B., Galagan,J., Lander,E., Devon,K., Nusbaum,C., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Yandava,C., Kodira,C.,
+            Zeng,Q., Alvarado,L., O'Leary,S., Dickman,M.B., Kohn,L. and
+            Rollins,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Sclerotinia sclerotiorum 1980 genome
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 143)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 143)
+  AUTHORS   Lander,E., Birren,B. and Cuomo,C.
+  CONSRTM   The Genome Sequencing Platform, The Genome Assembly Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2005) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EDN91332.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..143
+                     /organism="Sclerotinia sclerotiorum 1980 UF-70"
+                     /strain="1980"
+                     /db_xref="taxon:665079"
+                     /chromosome="Unknown"
+     Protein         1..143
+                     /product="predicted protein"
+                     /calculated_mol_wt=15828
+     CDS             1..143
+                     /locus_tag="SS1G_00735"
+                     /coded_by="XM_001598596.1:1..432"
+                     /db_xref="GeneID:5494281"
+ORIGIN      
+        1 myafktlsla flllvanvqa gkitytcynk tggikkdgll eqkaggtipd dqvqvvedgm
+       61 ktwshgkyta svnkrtkilv vkcvekvenk dlataanneq qqlvnshikk tkrddgddld
+      121 vnvddlevdd ledddeddve yvf
+//
